@@ -11,22 +11,6 @@ header {
     font-size: 2rem;
 }
 
-#header__box {
-    border: solid 2px #162adf;
-    background-color: #162adf;
-    border-radius: 5px;
-    width: 5vw;
-    height: 10vh;
-    transition: all 1s;
-}
-
-#header__box:hover {
-    border: solid 2px #162adf;
-    background-color: rgb(255, 255, 255);
-    transition: all 1s;
-    height: 15vh;
-}
-
 body {
     min-height: 100vh;
 }
@@ -38,64 +22,32 @@ main {
 }
 
 .block {
+    width: 420px;
+    background: transparent;
+    color: #fff;
+    padding: 2% 3%;
+    height: auto;
+    min-height: 100%;
+}
+
+.block .caixa__input {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    flex-direction: column;
 }
 
-/*---Caixa 1--*/
-#box {
-    border: solid 2px rgb(255, 0, 0);
-    background-color: rgb(255, 0, 0);
-    border-radius: 5px;
-    width: 5vw;
-    height: 10vh;
-    padding: 5px;
-    margin: 1px;
-    transition: all 1s;
-
-}
-
-#box:hover {
-    border: solid 2px red;
-    background-color: rgb(255, 255, 255);
-    transition: all 1s;
-    width: 15vw;
-}
-
-/* ---Caixa 2--- */
-#box2 {
-    border: solid 2px orange;
-    background-color: orange;
-    border-radius: 5px;
-    width: 5vw;
-    height: 10vh;
-    padding: 5px;
-    margin: 1px;
-    transition: all 1s;
-}
-
-#box2:hover {
-    border: solid 2px orange;
-    background-color: rgb(255, 255, 255);
-    width: 15vw;
-    transition: all 1s;
-}
-
-/* ---Caixa 3--- */
-#box3 {
-    border: solid 2px #ffc400;
-    background-color: #ffc400;
-    border-radius: 5px;
-    width: 5vw;
-    height: 10vh;
-    padding: 5px;
-    margin: 1px;
-    transition: all 1s;
-}
-
-#box3:hover {
-    border: solid 2px #ffc400;
-    background-color: #ffffff;
-    width: 15vw;
-    transition: all 1s;
+.caixa__input input {
+    width: 100%;
+    height: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 14px;
+    color: #ffff;
+    padding: 20px 45px 20px 20px;
 }
