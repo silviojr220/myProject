@@ -1,0 +1,138 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+/*---Caixa 1--*/
+#box {
+    border: solid 2px rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    width: 5vw;
+    height: 10vh;
+    padding: 5px;
+    margin: 1px;
+    transition: all 1s;
+
+}
+
+#box:hover {
+    border: solid 2px red;
+    background-color: red;
+    transition: all 1s;
+    width: 15vw;
+}
+
+/* ---Caixa 2--- */
+#box2 {
+    border: solid 2px orange;
+    background-color: orange;
+    border-radius: 5px;
+    width: 5vw;
+    height: 10vh;
+    padding: 5px;
+    margin: 1px;
+    transition: all 1s;
+}
+
+#box2:hover {
+    border: solid 2px orange;
+    background-color: orange;
+    width: 15vw;
+    transition: all 1s;
+}
+
+/* ---Caixa 3--- */
+#box3 {
+    border: solid 2px #ffc400;
+    background-color: #ffc400;
+    border-radius: 5px;
+    width: 5vw;
+    height: 10vh;
+    padding: 5px;
+    margin: 1px;
+    transition: all 1s;
+}
+
+#box3:hover {
+    border: solid 2px #ffc400;
+    background-color: #ffc400;
+    width: 15vw;
+    transition: all 1s;
+}
+
+/* ---Caixa 4--- */
+#box4 {
+    border: solid 2px #2fff6d;
+    background-color: #2fff6d;
+    border-radius: 5px;
+    width: 5vw;
+    height: 10vh;
+    padding: 5px;
+    margin: 1px;
+    transition: all 1s;
+}
+
+#box4:hover {
+    border: solid 2px #2fff6d;
+    background-color: #2fff6d;
+    width: 15vw;
+    transition: all 1s;
+}
+
+/* ---Caixa 5--- */
+#box5 {
+    border: solid 2px #6dff2f;
+    background-color: #6dff2f;
+    border-radius: 5px;
+    width: 5vw;
+    height: 10vh;
+    padding: 5px;
+    margin: 1px;
+    transition: all 1s;
+}
+
+#box5:hover {
+    border: solid 2px #6dff2f;
+    background-color: #6dff2f;
+    width: 15vw;
+    transition: all 1s;
+}
+
+/* ---Caixa 6--- */
+#box6 {
+    border: solid 2px greenyellow;
+    background-color: greenyellow;
+    border-radius: 5px;
+    width: 5vw;
+    height: 10vh;
+    padding: 5px;
+    margin: 1px;
+    transition: all 1s;
+}
+
+#box6:hover {
+    border: solid 2px greenyellow;
+    background-color: greenyellow;
+    width: 15vw;
+    transition: all 1s;
+}
+
+/* ---Caixa 7--- */
+#box7 {}
+
+#box7:hover {}
+/* ---Caixa 8--- */
+#box8 {}
+
+#box8:hover {}
+/* ---Caixa 9--- */
+#box9 {}
+
+#box9:hover {}
